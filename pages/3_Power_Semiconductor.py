@@ -72,7 +72,7 @@ colcondition1, colcondition2, colcondition3  = st.columns(3)
 # first column: temperature
 with colcondition1:
     selected_temperature = st.slider(
-        'Temperature in degree Celsius', 25, 150, 25,25
+        'Temperature in degree Celsius', 25, 225, 25,25
     )
 # second column: empty
 # third column: empty
