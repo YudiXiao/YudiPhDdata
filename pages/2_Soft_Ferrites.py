@@ -74,7 +74,7 @@ with colcondition1:
 # third column: Temperature 
 with colcondition3:
     selected_temperature = st.slider(
-        'Temperature in degree Celsius', 25, 150, 25,25
+        'Temperature in degree Celsius', 25, 225, 25,25
     )
 
 st.markdown('---')
